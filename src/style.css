@@ -2,8 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* background-color: #ffe4e1; */
+  /* commented by om referencing from medium webpage */
+}
+
+#landing-page{
   background-color: #ffe4e1;
 }
+
 .con1 {
   display: flex;
   justify-content: flex-end;
@@ -37,11 +43,11 @@
 .con3 {
   margin-top: 50px;
   margin-left: 80px;
+  width: 500px;
+  height: 210px;
 }
 .head2 {
   font-family: Georgia, "Times New Roman", Times, serif;
-  width: 500px;
-  height: 210px;
 }
 .icon {
   display: flex;
@@ -54,4 +60,16 @@
   font-family: Georgia, "Times New Roman", Times, serif;
   width: 80px;
   height: 50px;
+}
+.landing-page-button{
+  margin: 30px 0;
+}
+.btn{
+  background-color: #fff;
+  border-radius: 22px;
+  border: solid 1px black;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 7px 20px 9px;
+  font-weight: 400;
+  font-size: 16px;
 }
