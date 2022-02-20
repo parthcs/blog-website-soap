@@ -17,5 +17,5 @@
 1. git clone -b branch_name link
 2. git init
 3. git add filename
-4.git commit -m "message"
+4. 4.git commit -m "message"
 5.git push remote_branch_link(or link name) branch_name
